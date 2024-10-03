@@ -10,7 +10,7 @@ function createWebSocketServer(server) {
   wss.on("connection", (ws) => {
     console.log("New WebSocket connection");
     ws.on("message", (message) => {
-      console.log(`Received message: ${message}`);
+      console.log(`Received Message: ${message}`);
       ws.send("Hello from WebSocket server");
     });
   });
