@@ -1,0 +1,2 @@
+# Health Data Application
+This project is a full-stack application that consists of a frontend, a backend, and a data service that periodically fetches external data. The application allows interaction between the frontend and backend via WebSocket while the data service runs in the background fetching data periodically.
